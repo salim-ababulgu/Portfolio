@@ -30,7 +30,6 @@ Je suis actuellement étudiant à La Plateforme, où je me spécialise dans le d
 
 - [![Portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](salim-ababulgu.fr)
 - [![Email Badge](https://img.shields.io/badge/-Email-red)](mailto:votre_adresse_email)
-- [![Email Badge](https://img.shields.io/badge/-Email-red)](mailto:votre_adresse_email)
 - [![LinkedIn Badge](https://img.shields.io/badge/-LinkedIn-blue)](lien_vers_votre_linkedin)
 
 N'hésitez pas à me contacter si vous souhaitez discuter de collaborations, d'opportunités d'alternance, ou simplement échanger sur le développement web !
