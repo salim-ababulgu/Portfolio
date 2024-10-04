@@ -1,0 +1,57 @@
+{
+    "projects": {
+      "title": "Mes Projets",
+      "cards": [
+        {
+          "image": "../images/project_e-commerce.png",
+          "title": "Re-Gaming",
+          "tags": ["html", "tailwind.css", "php"]
+        },
+        {
+          "image": "../images/project_portfolio.png",
+          "title": "Portfolio",
+          "tags": ["html", "tailwind.css", "php"]
+        },
+        {
+          "image": "../images/project_quiz-night.png",
+          "title": "Quiz Night",
+          "tags": ["Tag 2"]
+        },
+        {
+          "image": "../images/peoject_book-buddy.png",
+          "title": "Book buddy",
+          "tags": ["Tag 3"]
+        },
+        {
+          "image": "../images/project_memory-game.png",
+          "title": "Memory",
+          "tags": ["Tag 4"]
+        },
+        {
+          "image": "../images/project_cinetech.png",
+          "title": "Cinetch",
+          "tags": ["Tag 4"]
+        },
+        {
+          "image": "../images/project_clicker-game.png",
+          "title": "Clicker game",
+          "tags": ["Tag 4"]
+        },
+        {
+          "image": "../images/project_happy-meal.png",
+          "title": "Happy meal",
+          "tags": ["Tag 4"]
+        },
+        {
+          "image": "../images/project_matcha-tea.png",
+          "title": "Matcha tea",
+          "tags": ["Tag 4"]
+        },
+        {
+          "image": "../images/project_fansite.png",
+          "title": "Fansite",
+          "tags": ["HTML", "CSS"]
+        }
+      ]
+    }
+  }

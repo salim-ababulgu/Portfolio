@@ -1,5 +1,6 @@
 <?php 
-require_once 'head_dashboard.php'; 
+    define('BASE_URL', '/dashboard');
+    require_once 'head_dashboard.php'; 
 ?>
     <body style="">
         <div id="root">
@@ -19,17 +20,14 @@ require_once 'head_dashboard.php';
                             <div class="mb-2 flex items-center justify-between space-y-2">
                                 <div>
                                     <h2 class="text-2xl font-bold tracking-tight">
-                                        Welcome back!
+                                        Dashboard
                                     </h2>
-                                    <p class="text-muted-foreground">
-                                        Here's a list of your tasks for this month!
-                                    </p>
                                 </div>
                             </div>
                             <div class="-mx-4 flex-1 overflow-auto px-4 py-1 lg:flex-row lg:space-x-12 lg:space-y-0">
                                 <div class="space-y-4">
                                     <!-- Top navbar -->
-                                    <div class="flex items-center justify-between">
+                                    <!-- <div class="flex items-center justify-between">
                                         <div class="flex flex-1 flex-col-reverse items-start gap-y-2 sm:flex-row sm:items-center sm:space-x-2">
                                             <input class="flex rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm transition-colors file:border-0 file:bg-transparent 
                                                 file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 h-8 w-[150px] lg:w-[250px]" placeholder="Filter tasks..." value="">
@@ -58,7 +56,7 @@ require_once 'head_dashboard.php';
                                             </svg>
                                             View
                                         </button>
-                                    </div>
+                                    </div> -->
                                     <!-- Fin top navbar -->
                                     <div class="rounded-md border">
                                         <div class="relative w-full overflow-auto">
@@ -182,51 +180,12 @@ require_once 'head_dashboard.php';
                                                             </button>
                                                         </td>
                                                     </tr>
-                                                    <tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted" data-state="false">
-                                                        <td class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
-                                                            <button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" class="peer h-4 w-4 shrink-0 rounded-sm border border-primary shadow focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground translate-y-[2px]" aria-label="Select row"></button>
-                                                        </td>
-                                                        <td class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
-                                                            <div class="w-[80px]">
-                                                                TASK-5160
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
-                                                            <div class="flex space-x-2">
-                                                                <div class="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-foreground">Documentation</div>
-                                                                <span class="max-w-32 truncate font-medium sm:max-w-72 md:max-w-[31rem]">Calculating the bus won't do anything, we need to navigate the back-end JSON protocol!</span>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
-                                                            <div class="flex w-[100px] items-center">
-                                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2 h-4 w-4 text-muted-foreground">
-                                                                    <path d="M5.49998 0.5C5.49998 0.223858 5.72383 0 5.99998 0H7.49998H8.99998C9.27612 0 9.49998 0.223858 9.49998 0.5C9.49998 0.776142 9.27612 1 8.99998 1H7.99998V2.11922C9.09832 2.20409 10.119 2.56622 10.992 3.13572C11.0116 3.10851 11.0336 3.08252 11.058 3.05806L11.858 2.25806C12.1021 2.01398 12.4978 2.01398 12.7419 2.25806C12.986 2.50214 12.986 2.89786 12.7419 3.14194L11.967 3.91682C13.1595 5.07925 13.9 6.70314 13.9 8.49998C13.9 12.0346 11.0346 14.9 7.49998 14.9C3.96535 14.9 1.09998 12.0346 1.09998 8.49998C1.09998 5.13362 3.69904 2.3743 6.99998 2.11922V1H5.99998C5.72383 1 5.49998 0.776142 5.49998 0.5ZM2.09998 8.49998C2.09998 5.51764 4.51764 3.09998 7.49998 3.09998C10.4823 3.09998 12.9 5.51764 12.9 8.49998C12.9 11.4823 10.4823 13.9 7.49998 13.9C4.51764 13.9 2.09998 11.4823 2.09998 8.49998ZM7.99998 4.5C7.99998 4.22386 7.77612 4 7.49998 4C7.22383 4 6.99998 4.22386 6.99998 4.5V9.5C6.99998 9.77614 7.22383 10 7.49998 10C7.77612 10 7.99998 9.77614 7.99998 9.5V4.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                                                                </svg>
-                                                                <span>In Progress</span>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
-                                                            <div class="flex items-center">
-                                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="mr-2 h-4 w-4 text-muted-foreground">
-                                                                    <path d="M7.14645 2.14645C7.34171 1.95118 7.65829 1.95118 7.85355 2.14645L11.8536 6.14645C12.0488 6.34171 12.0488 6.65829 11.8536 6.85355C11.6583 7.04882 11.3417 7.04882 11.1464 6.85355L8 3.70711L8 12.5C8 12.7761 7.77614 13 7.5 13C7.22386 13 7 12.7761 7 12.5L7 3.70711L3.85355 6.85355C3.65829 7.04882 3.34171 7.04882 3.14645 6.85355C2.95118 6.65829 2.95118 6.34171 3.14645 6.14645L7.14645 2.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                                                                </svg>
-                                                                <span>High</span>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-2 align-middle [&amp;:has([role=checkbox])]:pr-0 [&amp;>[role=checkbox]]:translate-y-[2px]">
-                                                            <button class="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground flex h-8 w-8 p-0 data-[state=open]:bg-muted" type="button" id="radix-:rfi:" aria-haspopup="menu" aria-expanded="false" data-state="closed">
-                                                                <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4">
-                                                                    <path d="M3.625 7.5C3.625 8.12132 3.12132 8.625 2.5 8.625C1.87868 8.625 1.375 8.12132 1.375 7.5C1.375 6.87868 1.87868 6.375 2.5 6.375C3.12132 6.375 3.625 6.87868 3.625 7.5ZM8.625 7.5C8.625 8.12132 8.12132 8.625 7.5 8.625C6.87868 8.625 6.375 8.12132 6.375 7.5C6.375 6.87868 6.87868 6.375 7.5 6.375C8.12132 6.375 8.625 6.87868 8.625 7.5ZM12.5 8.625C13.1213 8.625 13.625 8.12132 13.625 7.5C13.625 6.87868 13.1213 6.375 12.5 6.375C11.8787 6.375 11.375 6.87868 11.375 7.5C11.375 8.12132 11.8787 8.625 12.5 8.625Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                                                                </svg>
-                                                                <span class="sr-only">Open menu</span>
-                                                            </button>
-                                                        </td>
-                                                    </tr>
+                                                    
                                                 </tbody>
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="flex items-center justify-between overflow-auto px-2">
+                                    <!-- <div class="flex items-center justify-between overflow-auto px-2">
                                         <div class="hidden flex-1 text-sm text-muted-foreground sm:block">0 of 100 row(s) selected.</div>
                                         <div class="flex items-center sm:space-x-6 lg:space-x-8">
                                             <div class="flex items-center space-x-2">
@@ -276,7 +235,7 @@ require_once 'head_dashboard.php';
                                                 </button>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -287,7 +246,6 @@ require_once 'head_dashboard.php';
                 <ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol>
             </div>
         </div>
-        <script type="module" src="main.js"></script>
         <span id="recharts_measurement_span" aria-hidden="true" style="position: absolute; top: -20000px; left: 0px; padding: 0px; margin: 0px; border: none; white-space: pre; font-size: 12px; letter-spacing: normal;">
             $0
         </span>
