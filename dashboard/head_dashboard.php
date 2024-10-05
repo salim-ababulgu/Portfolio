@@ -1,7 +1,7 @@
 <html lang="fr" class="dark">
 <?php
     // Versioning du site
-    $version = '0.0.4';
+    $version = '0.0.7';
 ?>
   <head>
     <meta charset="UTF-8">
@@ -30,7 +30,7 @@
     <meta name="theme-color" content="#020817">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>style_dashboard.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="dashboard/style_dashboard.css?v=<?php echo time(); ?>">
 
     <!-- Lien css en local -->
     <link rel="stylesheet" href="style_dashboard.css">
@@ -39,6 +39,6 @@
     <link rel="shortcut icon" href="../images/logo.jpg" type="image/x-icon">
 
     <!-- Javascript -->
-    <script src="script_dashboard.js"></script>
+    <script src="dashboard/script_dashboard.js"></script>
 
   </head>

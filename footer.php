@@ -267,5 +267,6 @@
         
     </body>
     <!-- <script src="./script.js"></script> -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script src="script.js?v=<?php echo $version; ?>"></script>
 </html>

@@ -18,5 +18,7 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="style.css?v=<?php echo $version; ?>">
     <script src="../Model/modal/modal.js" defer></script>
-    <link href="https://fonts.googleapis.com/css2?family=Frunchy+Sage&display=swap" rel="stylesheet">                
+    <link href="https://fonts.googleapis.com/css2?family=Frunchy+Sage&display=swap" rel="stylesheet">       
+    
+    
 </head>

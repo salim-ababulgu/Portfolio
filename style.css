@@ -11,7 +11,7 @@
 
 :root {
     /* Couleurs principales */
-    --background-color: #1a1a1a;
+    --background-color: #101010;
     --soft-background-color: #1a1a1a40;
     --card-background: #292929;
     --border-color: #333333;
@@ -74,6 +74,15 @@
     border-color: var(--theme-color);
     box-shadow: 0 0 10px var(--theme-color);
 }
+
+/* ---- particles.js container ---- */ 
+#particles-js{ 
+
+    background-color: #252525; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%; 
+} 
 
 
   /* -----OTHER----- */
@@ -457,7 +466,7 @@ body {
 .item-1 {
     grid-column: 1 / span 4;
     grid-row: 1 / span 5;
-    background: url("../images/MYPHOTO.jpg") no-repeat;
+    background: url("./images/MYPHOTO.jpg") no-repeat;
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);

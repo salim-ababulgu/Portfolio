@@ -3,23 +3,11 @@
 ?>
 
     <body>
-        <nav class="navbar">
-            <div class="navbar-title">Salim</div>
-            <div class="icon-container">
-                <!-- <div class="palette-icon custom-button">
-                    Télécharger mon CV
-                </div> -->
-                        <a class="download-btn-navbar" href="../assets/Cv Développeur Web  Salim.pdf" download class="download-btn-navbar">
-                            <i class="fa-solid fa-file-arrow-down download-link-btn-navbar"></i>
-                            Télécharger mon CV
-                        </a>
-                <!-- <div id="openCustomModal" class="palette-icon custom-button" onclick="document.getElementById('customModal').style.display='block'">
-                    <i class="fa-solid fa-bars"></i>
-                </div> -->
-            </div>
-        </nav>
+        <?php 
+            require_once 'navbar.php'; 
+        ?>
         
-        <section class="bento-section" id="particles-js">
+        <section class="bento-section" >
             <div class="bento-container">
 
                 <!-- Case 1 - photo -->
@@ -119,31 +107,31 @@
                 <div class="bento-item item-5 fade-in-up">
                     <div class="wrapper-verticale">
                         <div class="item-verticale item2-verticale">
-                            <img src="../images/project_e-commerce.png" alt="Project E-commerce">
+                            <img src="./images/project_e-commerce.png" alt="Project E-commerce">
                         </div>
                         <div class="item-verticale item2-verticale">
-                            <img src="../images/project_portfolio.png" alt="Project portfolio">
+                            <img src="./images/project_portfolio.png" alt="Project portfolio">
                         </div>
                         <div class="item-verticale item3-verticale">
-                            <img src="../images/project_quiz-night.png" alt="Project Quiz-night">
+                            <img src="./images/project_quiz-night.png" alt="Project Quiz-night">
                         </div>
                         <div class="item-verticale item4-verticale">
-                            <img src="../images/peoject_book-buddy.png" alt="Peoject Book-buddy">
+                            <img src="./images/peoject_book-buddy.png" alt="Peoject Book-buddy">
                         </div>
                         <div class="item-verticale item6-verticale">
-                            <img src="../images/project_cinetech.png" alt="Project Cinetech">
+                            <img src="./images/project_cinetech.png" alt="Project Cinetech">
                         </div>
                         <div class="item-verticale item7-verticale">
-                            <img src="../images/project_clicker-game.png" alt="Project Clicker-game">
+                            <img src="./images/project_clicker-game.png" alt="Project Clicker-game">
                         </div>
                         <div class="item-verticale item8-verticale">
-                            <img src="../images/project_happy-meal.png" alt="Project Happy-meal">
+                            <img src="./images/project_happy-meal.png" alt="Project Happy-meal">
                         </div>
                         <div class="item-verticale item8-verticale">
-                            <img src="../images/project_matcha-tea.png" alt="Project Matcha-tea">
+                            <img src="./images/project_matcha-tea.png" alt="Project Matcha-tea">
                         </div>
                         <div class="item-verticale item8-verticale">
-                            <img src="../images/project_fansite.png" alt="Project Fansite">
+                            <img src="./images/project_fansite.png" alt="Project Fansite">
                         </div>
                     </div>
                     <button id="openModal" class="btn-overlay">Découvrez mes projets</button>
@@ -157,7 +145,9 @@
                             <div class="spinner-little"></div>
                         </div> -->
                     </div>
-                    <p class="social-paragraphe">Je suis à la recherche active d'une alternance</p>
+                    <p class="social-paragraphe">Vous cherchez</p>
+                    <span>un alternant ? / un freelance ?</span>
+                    <p>Je suis disponible !</p>
                     <!-- <a id="openModal_portfolio_modal_contact" class="btn-contact">Contactez moi</a> -->
                     <div data-tf-live="01J98X0P3FS5FH5TXDD7HGEPHP"></div><script src="//embed.typeform.com/next/embed.js"></script>
                 </div>
